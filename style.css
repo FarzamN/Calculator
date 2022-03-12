@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+  /* overflow: hidden; */
+  background-image: linear-gradient(to bottom right, #000000, #585858, #000);
+} 
+.calculator{
+   background-color: #262626;
+   margin: 50px auto;
+   border-radius: 24px;
+   align-items: center;
+   width: 255px;
+   height: 535px;
+   border: 3px solid black;
+  }
+  .history{
+    background-color: #262626;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 60%;
+    height: 20px;
+    position: relative;
+    top: 51px;
+    left: 97px;
+    bottom:0;
+    right: 0; 
+    color: #d1cccc;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+.screen{
+   margin: 55px 20px 15px 2px;
+   text-align: end;
+   background-color: #262626;
+   color: #fff;
+   border: 1.6px solid gray; 
+   padding-right: 4px;
+   border-radius: 10px;
+   width: 243px;
+   height: 13vh;
+   caret-color: #d4d3d3;
+   font-family: 'Great Vibes', cursive;
+   font-size: 45px;
+}
+
+button{
+  color: #fff;
+  background-color: #262626;
+  box-shadow:  0.5px 0.7px 6px 0.1px black;
+  cursor: pointer;
+  margin: 5.2px 0 0 3.5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 56px;
+  height: 55px;
+  font-size: 0.98rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top{
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.fas{
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 10px;
+  float: left;
+}
+.top .charge{
+  cursor: pointer;
+  padding: 10px 12px;
+  background-color: #220505;
+  border: 1px solid #3a3939;
+  float: right;
+  margin-right: 1px;
+}
+.row-5{
+  border-radius: 50px ;
+}
+i{
+  color: #d4d0d0;
+}
+
+input:focus{
+  outline: none;
+}
